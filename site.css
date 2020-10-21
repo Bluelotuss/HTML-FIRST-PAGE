@@ -1,0 +1,148 @@
+.site-header {
+    display: flex;
+    align-items: center;
+    
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav-links {
+    /* display: flex;
+    align-items: center; */
+}
+
+.aside {
+    margin-left: auto;
+}
+
+.empty-space {
+    border: #ccc solid 2px;
+    margin: 10px;
+    padding:10px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.login {
+    margin-left: auto;
+}
+
+.main-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-index {
+    flex: 1;
+}
+
+#first-text {
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.articles {
+    display: flex;
+}
+
+.article1 {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+.article2 {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+html {
+}
+
+body {
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    max-width: 1024px;
+    margin: auto;
+    font-family: sans-serif;
+    min-height: 100vh;
+}
+
+#main-login {
+    flex: 1;
+    width: 800px;
+    margin: auto;
+}
+
+.login-form {
+    margin: 10px;
+    padding: 40px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+#login-title {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    width: 200px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+input#reset {
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    color: white;
+    padding: 5px 10px 5px 10px;
+}
+
+input#signin {
+    background-color: green;
+    border: none;
+    cursor: pointer;
+    color: white;
+    padding: 5px 10px 5px 10px;
+}
+
+.img-w {
+    width: 8em;
+    height: 4em;
+}
+
+.img-obey {
+    width: 326px;
+    height: 217px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    border: #ccc solid 2px;
+    margin: 10px;
+    padding:10px;
+    /* text-align: center; */
+}
+
+.index-footer {
+    text-align: center;
+
+}
