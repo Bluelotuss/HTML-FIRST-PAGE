@@ -83,8 +83,7 @@ body {
 
 #main-login {
     flex: 1;
-    width: 800px;
-    margin: auto;
+    margin: 50px 100px 50px 100px;
 }
 
 .login-form {
